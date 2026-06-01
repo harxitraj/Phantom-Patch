@@ -1,0 +1,31 @@
+{
+  "name": "phantom-patch",
+  "version": "0.1.0",
+  "description": "Autonomous AI-Powered DevSecOps Vulnerability Guardian — Detects, Verifies, Patches, Validates, and Remediates Security Vulnerabilities Automatically.",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "nodemon src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/seed.js",
+    "lint": "echo \"Linter not configured yet\""
+  },
+  "keywords": [
+    "devsecops",
+    "security",
+    "vulnerability",
+    "multi-agent",
+    "automation",
+    "github",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "mongoose": "^9.6.3"
+  }
+}

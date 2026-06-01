@@ -1,0 +1,9 @@
+﻿# Phantom Patch — Local Development Stack
+# Implementation: Phase 11
+#
+# Services:
+#   phantom-api    — Node.js app (port 3000)
+#   mongodb        — MongoDB 6.x (port 27017)
+#
+# Usage: docker-compose up -d
+

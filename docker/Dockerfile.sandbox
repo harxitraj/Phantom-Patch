@@ -1,0 +1,10 @@
+﻿# Phantom Patch — Exploit Sandbox Image
+# Isolated environment for controlled vulnerability verification
+# Implementation: Phase 11
+
+# FROM node:18-alpine
+# RUN adduser -D sandbox
+# WORKDIR /app
+# USER sandbox
+# No network access at runtime (--network none)
+
